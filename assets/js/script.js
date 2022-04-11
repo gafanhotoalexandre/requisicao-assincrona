@@ -1,5 +1,5 @@
 const mainContainer = document.querySelector('.container');
-const app = mainContainer.querySelector('#active');
+const app = mainContainer.querySelector('#action');
 let url = 'https://jsonplaceholder.typicode.com/posts/1';
 
 async function getData() {
@@ -21,7 +21,7 @@ async function mountStructure() {
     fillStructure(elements, res);
 }
 
-function fillStructure({div, h1, p}, res) {
+function fillStructure({ div, h1, p }, res) {
     h1.innerText = res.title;
     p.innerText = res.body;
     div.appendChild(h1);
