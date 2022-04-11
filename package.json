@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gafanhotoalexandre/bla-bla-da-faculdade.git"
+  },
+  "keywords": [],
+  "author": "Alexandre Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gafanhotoalexandre/bla-bla-da-faculdade/issues"
+  },
+  "homepage": "https://github.com/gafanhotoalexandre/bla-bla-da-faculdade#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
