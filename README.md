@@ -15,3 +15,7 @@ npm install
 ```
 npm run dev
 ```
+
+### Projeto no Ar
+
+https://requisicao-assincrona.herokuapp.com/
